@@ -13,7 +13,8 @@ const processEnv = {
   LOG_LEVEL: process.env.LOG_LEVEL,
   ENABLE_REST_API_TESTS: process.env.ENABLE_REST_API_TESTS,
   USE_TWILIO_CONNECTION: process.env.USE_TWILIO_CONNECTION,
-  TOPOLOGY: process.env.TOPOLOGY
+  TOPOLOGY: process.env.TOPOLOGY,
+  CHROME_BIN:process.env.CHROME_BIN
 };
 
 // Copy environment variables
